@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: yellow;
+        }
+        .header{
+            background-color: tomato;
+            height: 100px;
+            margin: 1em;
+        }
+
+        .main{
+            height: 500px;
+            display: flex;
+        }
+
+        .footer{
+            background-color: tomato;
+            height: 100px;
+            margin: 1em;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        
+        .aside{
+            background-color: rgb(43, 89, 226);
+            width: 20%;
+            margin: 1em;
+        }
+
+        .artikel{
+            background-color: cadetblue;
+            width: 80%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            margin: 1em;
+        }
+
+        .artikel img{
+            width: 380px;
+            margin: 1em;
+            
+        }
+
+        .bingkai{
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <header>
+            header
+        </header>
+        </div>
+    
+    <div class="main">
+        <div class="aside">
+            aside
+        </div>
+        <div class="artikel">
+            <h3>Artikel</h3>
+            <div class="bingkai">
+                <img src="kucing.jpg" alt="">
+                <img src="kucing.jpg" alt="">
+                <img src="kucing.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        footer
+    </div>
+    </div>
+</body>
+</html>
